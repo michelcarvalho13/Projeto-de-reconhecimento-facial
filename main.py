@@ -4,7 +4,7 @@ xml_haar = 'haarcascade_frontalface_alt2.xml'
 #carregando a base de dados do classificador
 faceClassification = cv2.CascadeClassifier(xml_haar)
 
-capture = cv2.VideoCapture(1)
+capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1024)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 768)
 
